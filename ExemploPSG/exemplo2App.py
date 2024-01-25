@@ -7,7 +7,7 @@ import PySimpleGUI as sg
 from equacao2g import equacao2g
 import sys
 
-sg.theme('BlueMono')
+sg.theme('DarkAmber')
 desenho = [
     [sg.Text('Calculo para equacao do 2 grau')],
     [sg.Text('A:'), sg.Input(key='a')],
